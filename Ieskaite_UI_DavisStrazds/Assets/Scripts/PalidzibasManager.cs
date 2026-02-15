@@ -1,26 +1,22 @@
 using UnityEngine;
 using TMPro;
-using System.Collections.Generic;
 
 public class PalidzibasManager : MonoBehaviour
 {
-    public TextMeshProUGUI sarakstaTeksts; // Vilkt no tavas tāfeles
-    private List<string> izveletieVeidi = new List<string>();
+    public TextMeshProUGUI sarakstaTeksts;
 
-    public void PievienotSarakstam(string veids)
+    public void PogaPartika()
     {
-        // Pievienojam sarakstam
-        izveletieVeidi.Add(veids);
-        AtjaunotDispleju();
+        sarakstaTeksts.text = "Pārtika: Tev ir sagatavota zupa un maize.";
     }
 
-    void AtjaunotDispleju()
+    public void PogaMedicina()
     {
-        // Pārbaudām, vai sarakstā kaut kas ir, lai neizmet kļūdu
-        if (izveletieVeidi.Count > 0)
-        {
-            // Paņemam pašu pēdējo pievienoto elementu un aizstājam visu tekstu
-            sarakstaTeksts.text = "Izvēlēts: " + izveletieVeidi[izveletieVeidi.Count - 1];
-        }
+        sarakstaTeksts.text = "Medicīna: Plāksteri un vitamīni ir pieejami.";
+    }
+
+    public void PogaPsihologs()
+    {
+        sarakstaTeksts.text = "Psihologs: Mēs esam šeit, lai palīdzētu.";
     }
 }
