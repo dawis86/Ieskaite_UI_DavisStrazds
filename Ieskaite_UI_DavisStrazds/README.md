@@ -1,46 +1,42 @@
-🏥 Ieskaite UI - Sociālās Palīdzības Simulācija
-Autors: Dāvis Strazds
+# 🏥 Ieskaite UI: Sociālās Palīdzības Simulācija
+**Autors:** Dāvis Strazds  
+**Platforma:** Unity 2D (URP)
 
-🎯 Projekta vīzija un mērķis
+---
+
+## 🎯 Projekta vīzija un mērķis
 Šī simulācija ir izstrādāta kā interaktīvs rīks sociālajiem darbiniekiem un aprūpētājiem. Projekta mērķis ir vizualizēt un simulēt personalizētu aprūpes procesu, nodrošinot klientam gan fizisku, gan emocionālu atbalstu digitālā vidē.
 
-Idejiskā vīzija:
-Empātijas veicināšana: Caur vizuālām izmaiņām (Dropdown sistēma), lietotājs var redzēt tūlītēju klienta reakciju uz sniegto palīdzību.
+### 💡 Idejiskā vīzija
+* **Empātijas veicināšana:** Caur vizuālām izmaiņām lietotājs redz tūlītēju klienta reakciju uz sniegto palīdzību.
+* **Resursu pārvaldība:** Informācijas dēlis simulē palīdzības punktu, kur katra poga reprezentē konkrētu atbalsta virzienu.
+* **Personalizācija:** Katrs klients ir unikāls — aprūpes inventāram (sega, vitamīni) jābūt pielāgojamam.
+* **Interaktivitāte:** *Drag & Drop* funkcija ļauj lietotājam burtiski "sniegt palīdzīgu roku".
 
-Resursu pārvaldība: Informācijas dēlis simulē reālu sociālās palīdzības punktu, kur katra poga (Pārtika, Medicīna, Psihologs) reprezentē konkrētu palīdzības virzienu.
+---
 
-Personalizācija: Ar slaideru un Toggle sistēmu palīdzību tiek uzsvērts, ka katrs klients ir unikāls un aprūpes inventāram (sega, vitamīni) jābūt pielāgojamam.
+## 📋 Progresa Checklist (Ieskaites prasības)
 
-Interaktivitāte: Drag & Drop funkcija ļauj lietotājam burtiski "sniegt palīdzīgu roku", manuāli izvietojot nepieciešamos resursus.
+**1. Aina: Koridors** | Vārda/Gada ievade un vecuma aprēķins | ✅<br>
+Navigācija starp ainām un spēles iziešana | ✅  <br>
+**2. Aina: Istaba** | Dropdown sistēma (tēla stāvokļa maiņa) | ✅<br>
+Informācijas dēlis (Pārtika, Med, Psihologs) | ✅<br>
+Audio (Fona mūzika un interakciju skaņas) | ✅<br>
+**3. Pielāgošana** | Toggle pogas (Aprīkojuma ieslēgšana) | ✅<br>
+Slideri (Tēla mērogošana / Scale) | ✅<br>
+Drag & Drop (Objektu pārvietošana) | ✅<br>
 
-📋 Progresa Checklist (Ieskaites prasības)
-✅ 1. Aina: Koridors (Realizēts)
-[x] Vārda/Gada ievade: Dinamiska sistēma, kas nolasa datus un aprēķina precīzu klienta vecumu (2p).
+---
 
-[x] Navigācija: Intuitīva plūsma starp sākuma ekrānu un darba vidi (2p).
+## 🚀 Kā palaist?
+1. Atvērt projektu **Unity** vidē.
+2. Hierarhijas logā atvērt `Assets/MainScene/SampleScene.unity`.
+3. Nospiest **Play**.
+4. Ievadīt datus koridorā un izmantot UI elementus istabā.
 
-✅ 2. Aina: Istaba (Pamati & Loģika)
-[x] Dropdown sistēma: Klienta emocionālā stāvokļa pārvaldība (Bēdīgs/Smaidīgs) (1p).
+---
 
-[x] Informācijas dēlis: Interaktīvs Scroll View ar dažādām palīdzības kategorijām.
+## 💭 Pārdomas par procesu
+> **Izaicinājums:** Unity UI sasaiste ar C# skriptiem sākumā šķita piņķerīga, taču, sakārtojot loģiku `Managers.cs` un `PalidzibasManager.cs`, viss nostājās savās vietās.
 
-[x] Audio: Ieskaujoša fona mūzika un skaņas efekti klikšķiem (1p).
-
-✅ 3. Padziļinātā tēla pielāgošana (Realizēts)
-[x] Toggle pogas (Checkbox): Aprīkojuma (Sega, Vitamīni, Zupa) vizualizācija (2p).
-
-[x] Slideri: Tēla izmēru (Scale) dinamiska mainīšana (2p).
-
-[x] Drag & Drop: Pilna priekšmetu manuāla pārvietošanas brīvība (1p).
-
-🚀 Kā palaist?
-Atvērt projektu Unity vidē un ielādēt MainScene.
-
-Ievadīt datus Koridora ainā un doties uz simulāciju.
-
-Izmantot visus UI elementus, lai uzlabotu klienta stāvokli.
-
-💭 Pārdomas par procesu
-Izaicinājums: Unity UI sistēmas sasaiste ar C# skriptiem sākumā šķita sarežģīta, taču, izprotot komponentu mijiedarbību, darbs kļuva loģisks.
-
-Laika plānošana: Veidojot pēc ieskaites piemēra, laika patēriņš dubultotos, tāpēc fokuss tika likts uz tīru kodu un funkcionējošu loģiku.
+> **Laika plānošana:** Prioritāte tika piešķirta tīram kodam un kļūdu apstrādei (piemēram, lai nevar ievadīt burtus gada laukā). Paldies par lekcijām — iemācījos ne tikai salikt pogas, bet arī saprast, kas notiek "zem pārsega".
