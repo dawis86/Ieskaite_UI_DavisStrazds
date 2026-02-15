@@ -1,28 +1,46 @@
-# Ieskaite UI - Sociālās Palīdzības Simulācija
-**Autors:** Dāvis Strazds
+🏥 Ieskaite UI - Sociālās Palīdzības Simulācija
+Autors: Dāvis Strazds
 
-## 📋 Progresa Checklist (Ieskaites prasības)
+🎯 Projekta vīzija un mērķis
+Šī simulācija ir izstrādāta kā interaktīvs rīks sociālajiem darbiniekiem un aprūpētājiem. Projekta mērķis ir vizualizēt un simulēt personalizētu aprūpes procesu, nodrošinot klientam gan fizisku, gan emocionālu atbalstu digitālā vidē.
 
-### ✅ 1. Aina: Koridors (Realizēts)
-- [x] **Vārda/Gada ievade**: Input Field sistēma, kas aprēķina vecumu (2p).
-- [x] **Navigācija**: Poga "Sākt" pāriet uz istabu, poga "Oi, sajaucu" iziet no spēles (2p).
+Idejiskā vīzija:
+Empātijas veicināšana: Caur vizuālām izmaiņām (Dropdown sistēma), lietotājs var redzēt tūlītēju klienta reakciju uz sniegto palīdzību.
 
-### ✅ 2. Aina: Istaba (Pamati & Loģika)
-- [x] **Dropdown sistēma**: Maina tēla vizuālo stāvokli (Bēdīgs/Smaidīgs) (1p).
-- [x] **Informācijas dēlis**: Pārtikas, Medicīnas un Psihologa pogas maina tekstu uz tāfeles.
-- [x] **Audio**: Pievienota fona mūzika un interakciju skaņas (1p).
+Resursu pārvaldība: Informācijas dēlis simulē reālu sociālās palīdzības punktu, kur katra poga (Pārtika, Medicīna, Psihologs) reprezentē konkrētu palīdzības virzienu.
 
-### 🛠️ 3. Padziļinātā tēla pielāgošana (Procesā/Realizēts)
-- [x] **Toggle pogas (Checkbox)**: Iespēja ieslēgt/izslēgt aprīkojumu (Sega, Vitamīni, Zupa) (2p).
-- [x] **Slideri**: Divi slaideri, kas maina tēla platumu un garumu (Scale) (2p).
-- [x] **Drag & Drop**: Priekšmetu manuāla pārvietošana (1p).
+Personalizācija: Ar slaideru un Toggle sistēmu palīdzību tiek uzsvērts, ka katrs klients ir unikāls un aprūpes inventāram (sega, vitamīni) jābūt pielāgojamam.
 
-## 🚀 Kā palaist?
-1. Atvērt `MainScene`.
-2. Ievadīt datus Koridora ainā.
-3. Istabas ainā izmantot Dropdown un Toggle elementus klienta aprūpei.
+Interaktivitāte: Drag & Drop funkcija ļauj lietotājam burtiski "sniegt palīdzīgu roku", manuāli izvietojot nepieciešamos resursus.
 
-## sajūtas..
-1. Ir interesanti, bet sarežģīti.
-2. Ja darītu kā + / - ir ieskaites piemērā, tad x2 laiks klāt.
-3. Paldies par lekcijām.
+📋 Progresa Checklist (Ieskaites prasības)
+✅ 1. Aina: Koridors (Realizēts)
+[x] Vārda/Gada ievade: Dinamiska sistēma, kas nolasa datus un aprēķina precīzu klienta vecumu (2p).
+
+[x] Navigācija: Intuitīva plūsma starp sākuma ekrānu un darba vidi (2p).
+
+✅ 2. Aina: Istaba (Pamati & Loģika)
+[x] Dropdown sistēma: Klienta emocionālā stāvokļa pārvaldība (Bēdīgs/Smaidīgs) (1p).
+
+[x] Informācijas dēlis: Interaktīvs Scroll View ar dažādām palīdzības kategorijām.
+
+[x] Audio: Ieskaujoša fona mūzika un skaņas efekti klikšķiem (1p).
+
+✅ 3. Padziļinātā tēla pielāgošana (Realizēts)
+[x] Toggle pogas (Checkbox): Aprīkojuma (Sega, Vitamīni, Zupa) vizualizācija (2p).
+
+[x] Slideri: Tēla izmēru (Scale) dinamiska mainīšana (2p).
+
+[x] Drag & Drop: Pilna priekšmetu manuāla pārvietošanas brīvība (1p).
+
+🚀 Kā palaist?
+Atvērt projektu Unity vidē un ielādēt MainScene.
+
+Ievadīt datus Koridora ainā un doties uz simulāciju.
+
+Izmantot visus UI elementus, lai uzlabotu klienta stāvokli.
+
+💭 Pārdomas par procesu
+Izaicinājums: Unity UI sistēmas sasaiste ar C# skriptiem sākumā šķita sarežģīta, taču, izprotot komponentu mijiedarbību, darbs kļuva loģisks.
+
+Laika plānošana: Veidojot pēc ieskaites piemēra, laika patēriņš dubultotos, tāpēc fokuss tika likts uz tīru kodu un funkcionējošu loģiku.

@@ -32,4 +32,10 @@ public class Managers : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void IzietNoSpeles() 
+{
+    Application.Quit(); 
+    Debug.Log("Spēle aizvērta!"); 
+}
 }

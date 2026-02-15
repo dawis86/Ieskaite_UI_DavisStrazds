@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class PalidzibasManager : MonoBehaviour
 {
@@ -35,11 +36,16 @@ public class PalidzibasManager : MonoBehaviour
     }
 
     public void AprekinatVecumu() {
-        if (vardaLauks.text != "" && gadaLauks.text != "") {
+        if (!string.IsNullOrEmpty(vardaLauks.text) && !string.IsNullOrEmpty(gadaLauks.text)) {
             string vards = vardaLauks.text;
-            int gads = int.Parse(gadaLauks.text);
-            int vecums = 2026 - gads; 
-            sarakstaTeksts.text = vards + " ir " + vecums + " gadus vecs/a.";
+            if (int.TryParse(gadaLauks.text, out int gads)) {
+                int vecums = 2026 - gads; 
+                sarakstaTeksts.text = vards + " ir " + vecums + " gadus vecs/a.";
+            } else {
+                sarakstaTeksts.text = "Ievadiet derīgu gadu!";
+            }
+        } else {
+            sarakstaTeksts.text = "Aizpildiet visus laukus!";
         }
     }
 
@@ -84,5 +90,11 @@ public class PalidzibasManager : MonoBehaviour
 
     public void IzietKoridora() {
         SceneManager.LoadScene("SampleScene"); 
+    }
+
+    public void OnDrag(BaseEventData data) {
+        PointerEventData pointerData = (PointerEventData)data;
+        Vector3 mousePos = pointerData.position;
+        pointerData.selectedObject.transform.position = mousePos;
     }
 }
