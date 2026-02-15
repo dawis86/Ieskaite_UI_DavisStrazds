@@ -21,3 +21,8 @@
 1. Atvērt `MainScene`.
 2. Ievadīt datus Koridora ainā.
 3. Istabas ainā izmantot Dropdown un Toggle elementus klienta aprūpei.
+
+## sajūtas..
+1. Ir interesanti, bet sarežģīti.
+2. Ja darītu kā + / - ir ieskaites piemērā, tad x2 laiks klāt.
+3. Paldies par lekcijām.
