@@ -1,29 +1,16 @@
-# Sociālā Atbalsta Simulators - Unity UI Ieskaite
+# Ieskaite UI - Sociālās Palīdzības Simulācija
+**Autors:** Dāvis Strazds
 
-Šis projekts ir interaktīva UI spēle, kas simulē sociālā darbinieka darba vīziju, palīdzot klientam saņemt nepieciešamo aprīkojumu un uzlabot pašsajūtu.
-
-## Projekta Vīzija
-Pārveidot standarta "apģērbšanas" uzdevumu par jēgpilnu sociālā atbalsta procesu, izmantojot pieejamos resursus (pārtika, medicīna, mierinājums).
-
-## Darbu saraksts (Checklist)
-
-### I Aina: Koridors (Navigācija un Ieeja)
-- [x] Fona mūzika un sākuma skaņas.
-- [x] Vārda ievade un vecuma aprēķināšanas loģika.
-- [ ] Pievienot "Iziet" pogu: "Oi, sajaucu - eju prom".
-- [ ] Salabot durvju skaņu: Ieviest aizkavi (Coroutine) pirms pārejas uz II ainu.
-
-### II Aina: Istaba (Sociālā palīdzība)
-- [ ] UI uzlabojumi: Sakārtot tāfeles teksta izmērus un mērogošanu.
-- [ ] Tēlu sistēma: Ieviest Dropdown tēlu maiņai (raud, smaidīgs, dzer kafiju).
-- [ ] Aprīkojuma kategorijas (Toggle):
-    - Pārtika: Zupa, paka, tēja.
-    - Medicīna: Aptieciņa, plāksteri, vitamīni.
-    - Komforts: Sega, grāmata, kafija.
-- [ ] Interakcija: Ieviest Drag and Drop sistēmu palīdzības sniegšanai.
-- [ ] Komunikācija: Scroll View ar sociālā darbinieka iedrošinošiem komentāriem.
-- [ ] Pašsajūtas regulēšana: Slider elementi tēla mēroga (stipruma) mainīšanai.
-
-### Tehniski
-- [x] Git versiju kontrole un GitHub krātuve.
-- [x] Jēgpilni Commit ziņojumi.
+## 📋 Progresa Checklist
+- [x] **1. Aina: Koridors**
+    - [x] Vārda/Gada ievade un aprēķins.
+    - [x] Pāreja uz 2. ainu.
+    - [x] Iziešanas poga "Oi, sajaucu".
+- [x] **2. Aina: Istaba (Pamati)**
+    - [x] Teksta izmēru labojumi uz tāfeles (Auto-size).
+    - [x] Pārtikas, Medicīnas un Psihologa pogas strādā.
+    - [x] Dropdown sistēma: Tēla vizuālā maiņa (Raud / Smaida).
+- [ ] **3. Aina: Padziļinātā loģika (TŪLĪT SĀKSIM)**
+    - [ ] Toggle pogas priekšmetu rādīšanai (Sega, Vitamīni, Zupa).
+    - [ ] Slideri tēla izmēra maiņai.
+    - [ ] Drag & Drop sistēma.
