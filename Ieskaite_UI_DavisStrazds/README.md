@@ -15,7 +15,7 @@
 ### 🛠️ 3. Padziļinātā tēla pielāgošana (Procesā/Realizēts)
 - [x] **Toggle pogas (Checkbox)**: Iespēja ieslēgt/izslēgt aprīkojumu (Sega, Vitamīni, Zupa) (2p).
 - [x] **Slideri**: Divi slaideri, kas maina tēla platumu un garumu (Scale) (2p).
-- [ ] **Drag & Drop**: Priekšmetu manuāla pārvietošana (1p).
+- [x] **Drag & Drop**: Priekšmetu manuāla pārvietošana (1p).
 
 ## 🚀 Kā palaist?
 1. Atvērt `MainScene`.
